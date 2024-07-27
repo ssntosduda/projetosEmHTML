@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+           
+        }
+        header{
+            border: 2px solid black;
+            margin: 2px;
+            
+            nav{
+                border: 2px solid black;
+                margin: 2px;
+            }
+        }
+        main{
+            border: 2px solid black;
+            margin: 2px;
+            display: flex;
+            height: 500px;
+        }
+        section{
+            border: 2px solid black;
+            margin: 2px;
+            width: 65%;
+        }
+        p{
+            display: ;
+        }
+        #primeiro{
+            border: 2px solid black;
+            margin: 2px;
+            display: flex;
+            height: 262px;
+        }
+        #segundo{
+            border: 2px solid black;
+            margin: 2px;
+            display: flex;
+            height: 215px;
+        }
+        #fora{
+            border: 2px solid black;
+            margin: 2px;   
+            width: 35%; 
+            display: inline-block;
+        }
+        #dentro{
+            border: 2px solid black;
+            margin: 2px;
+            display: inline-block;
+         }
+        footer{
+            border: 2px solid black;
+            margin: 2px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>link link link</nav>
+    </header>
+    <main>
+        <section>
+            <article id="primeiro">
+                <h2>Título</h2>
+                <p>Texto do artigo</p>
+            </article>
+            <article id="segundo">
+                <h2>Título</h2>
+                <p>Texto do artigo</p>
+                <aside id="dentro">conteudo periferico do artigo</aside>
+            </article>
+        </section>
+        <aside id="fora">
+            Conteudo periferico do site
+        </aside>
+    </main>
+    <footer>
+        conteudo do rodapé
+    </footer>
+</body>
+</html>

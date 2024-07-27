@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+    <style>
+        body{
+            background-color: rgb(25, 25, 235);
+        }
+        fieldset{
+            background-color: rgb(77, 128, 170);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Formulario Dev</legend>
+            <label for="usuario"> Nome completo </label><br>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+            <br>
+            <label for="iemail">Idade </label><br>
+            <input type="number" name="idade" id="idade" autocomplete="idade" placeholder="Digite sua idade">
+            <br>
+            <label for="iemail">E-mail </label><br>
+            <input type="email" name="iemail" id="iemail" autocomplete="email" placeholder="Digite seu e-mail">
+            <br><br><br>
+            <p>Sexo</p>
+            <input type="radio" name="sexo" id="isxfem">
+            <label for="isxfem"> Feminino</label>
+            <input type="radio" name="sexo" id="isxmas">
+            <label for="isxmas"> Masculino</label>
+            <input type="radio" name="sexo" id="isxoutro">
+            <label for="isxoutro"> Outro</label>
+            <br><br>
+            <p><strong>Marque as linguagens que você conhece:</strong></p>
+            <br><br>
+            <input type="checkbox" name="html" id="html"> 
+            <label for="html"> HTML</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="css"> CSS</label>
+            <input type="checkbox" name="js" id="js">
+            <label for="js"> JavaScript</label>
+            <br>
+            <input type="checkbox" name="php" id="php">
+            <label for="php"> PHP</label>
+            <input type="checkbox" name="net" id="net">
+            <label for="NET"> .NET</label>
+            <input type="checkbox" name="c" id="c">
+            <label for="c"> C#</label>
+            <br>
+            <p>Estado</p>
+            <select name="iest" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+                    <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
